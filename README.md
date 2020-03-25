@@ -45,29 +45,3 @@ Now,	let	us	look	at	an	example	to	calculate	factorial	of	a	number	using	recursio
                               
                               **********************************
                               **********************************
-
-                                   Example	Code	1:
-
-#include<iostream>
-using namespace std;
-int fact(int n)
-{
-				if(n==0)											//Base	Case
-				{
-								return 1;
-				}
-				return n	*	fact(n-1);				//Recursive	call	with small	calculation
-}
-int main()
-{
-				int num;
-				cin>>num;
-				cout<<fact(num);
-				return 0;
-}
-  
-Output:
-120																    //For num=5
-  
-  
-  
